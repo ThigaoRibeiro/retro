@@ -1,0 +1,5 @@
+Dia 08/11
+- Alterei a forma de busca das tabelas na model para $entity (para que dessa forma possa buscar as tabelas de forma dinâmica)
+- Coloquei o telefone na tabela clie_endereco (para testar a forma busca do UNIQUE) e funcionou - posteriormente vou criar uma classe com os devidos metodos.
+- Não estou conseguindo adicionar a exclusão do "endereco_id" no metodo "safe()" na tabela model
+Finalizando o dia e dando um push para o git
