@@ -2,6 +2,15 @@
     "autoload": {
        "psr-4": {
            "Source\\" : "Source/"
-       } 
-    }
+       },
+    "files": [
+      "source/Config.php"
+    ]
+    },
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "coffeecode/router": "1.0.*",
+    "league/plates": "v4.0.0-alpha"
+  }
 }
