@@ -22,8 +22,22 @@
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/slicknav.css">
-
     <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Redirecionamento com a Rota
+    <link rel="stylesheet" href="<?= url("css/bootstrap.min.css") ;?>">
+    <link rel="stylesheet" href="<?= url("css/owl.carousel.min.css") ;?>">
+    <link rel="stylesheet" href="<?= url("css/magnific-popup.css") ;?>">
+    <link rel="stylesheet" href="<?= url("css/font-awesome.min.css") ;?>">
+    <link rel="stylesheet" href="<?= url("css/themify-icons.css") ;?>">
+    <link rel="stylesheet" href="<?= url("css/gijgo.css") ;?>">
+    <link rel="stylesheet" href="<?= url("css/nice-select.css") ;?>">
+    <link rel="stylesheet" href="<?= url("css/flaticon.css") ;?>">
+    <link rel="stylesheet" href="<?= url("css/slicknav.css") ;?>">
+    <link rel="stylesheet" href="<?= url("css/style.css") ;?>">
+    -->
+
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 

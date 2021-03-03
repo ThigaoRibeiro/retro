@@ -9,16 +9,19 @@ use function Composer\Autoload\includeFile;
 
 class Web
 {
+    public $css;
 
     public function __construct()
     {
         $this->view = Engine::create(__DIR__."/../../bistro","php");
+
     }
 
     public function home()
     {
 
         echo $this->view->render("home");
+
     }
 
     public function menu()
