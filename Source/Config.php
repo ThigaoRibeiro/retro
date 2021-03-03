@@ -1,8 +1,21 @@
 <?php
 
-define("ROOT", "http://localhost/Retro/bistro");
+define("ROOT", "https://localhost/Retro");
 
 define("SITE", "Bistro");
+
+/**
+ * @param string|null $uri
+ * @return string
+ */
+function url(string $uri = null): string
+{
+    if ($uri) {
+        return ROOT . "/{$uri}";
+    }
+
+    return ROOT;
+}
 
 /*
 
@@ -23,16 +36,3 @@ define("SITE", "Bistro");
 
 
 */
-
-/**
- * @param string|null $uri
- * @return string
- */
-function url(string $uri = null): string
-{
-    if ($uri) {
-        return ROOT . "/{$uri}";
-    }
-
-    return ROOT;
-}

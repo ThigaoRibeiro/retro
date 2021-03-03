@@ -54,6 +54,7 @@ $route->namespace("Source\App");
  */
 $route->group(null);
 $route->get("/", "Web:home");
+$route->get("/home", "Web:home");
 $route->get("/menu", "Web:menu");
 $route->get("/about", "Web:about");
 $route->get("/contact", "Web:contact");
@@ -69,9 +70,9 @@ $route->get("/{errcode}", "Web:error");
 /**
  * PROCESS
  */
-$router->dispatch();
-if ($router->error()){
-    $router->redirect("/ops/{$router->error()}");
+$route->dispatch();
+if($route->error()){
+    $route->redirect("/ops/{$route->error()}");
 }
 
 

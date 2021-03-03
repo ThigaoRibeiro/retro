@@ -50,17 +50,17 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="home.php">Início</a></li>
-                                            <li><a href="menu.php">Cardápio</a></li>
-                                            <li><a href="about.php">Sobre Nós </a></li>
-                                            <li><a href="contact.php">Peça já!</a></li>
+                                            <li><a class="active" href="<?= url() ;?>">Início</a></li>
+                                            <li><a href="<?= url("menu") ;?>">Cardápio</a></li>
+                                            <li><a href="<?= url("about") ;?>">Sobre Nós </a></li>
+                                            <li><a href="<?= url("contact") ;?>">Peça já!</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="say_hello">
-                                    <a href="cadastro.php">Cadastre-se!</a>
+                                    <a href="<?= url("cadastro") ;?>">Cadastre-se!</a>
                                 </div>
                             </div>
                             <div class="col-12">

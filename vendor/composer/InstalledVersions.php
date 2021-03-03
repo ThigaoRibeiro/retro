@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '6efb633c5dbd1a8558a16a0160e71e3f3943772d',
+    'reference' => '3f8f7f930f8d7f27e1f9cfa5b183dd3df5aaf38d',
     'name' => '__root__',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '6efb633c5dbd1a8558a16a0160e71e3f3943772d',
+      'reference' => '3f8f7f930f8d7f27e1f9cfa5b183dd3df5aaf38d',
     ),
     'coffeecode/router' => 
     array (
